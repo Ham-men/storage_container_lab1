@@ -142,12 +142,18 @@
     <ClCompile Include="car.cpp" />
     <ClCompile Include="Fabric.cpp" />
     <ClCompile Include="furniture.cpp" />
+    <ClCompile Include="queue.cpp" />
+    <ClCompile Include="queue3.cpp" />
     <ClCompile Include="storage_container_lab1.cpp" />
+    <ClCompile Include="worker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.h" />
     <ClInclude Include="Fabric.h" />
     <ClInclude Include="furniture.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="queue3.h" />
+    <ClInclude Include="worker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
