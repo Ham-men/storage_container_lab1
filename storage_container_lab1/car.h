@@ -1,17 +1,20 @@
 #pragma once
+#include "lib_all.h"
 class car
 {
 private:
-	char brand;
-	char model;
-	char gos_nomber;
+	string brand;
+	string model;
+	string gos_nomber;
 
 
 public:
 	car();
-	car(char brand2,
-		char model2,
-		char gos_nomber2);
-	char get_brand();
+	car(string brand2,
+		string model2,
+		string gos_nomber2);
+	//string get_brand();
+	void car_add(string brand2, string model2, string gos_nomber2);
+	string car_info();
 };
 

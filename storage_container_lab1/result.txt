@@ -1,0 +1,11 @@
+
+worker_info
+	fio = erf
+	job = erf
+	zp = 123
+	adress = erf
+	m_nomber = 123
+car_info
+	brand = qwe
+	model = qwe
+	gos_nomber = qwe

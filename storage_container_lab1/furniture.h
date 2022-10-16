@@ -1,20 +1,22 @@
 #pragma once
+#include "lib_all.h"
 class furniture
 {
 private:
-	char type;
+	string type;
 	int razmer[3];
-	char color;
-	char material;
+	string color;
+	string material;
 	int price;
 
 public:
 	furniture();
-	furniture(char type2,
-		int h, int w, int d,
-		char color2,
-		char material2,
+	furniture(string type2,
+		int h, int w, int l,
+		string color2,
+		string material2,
 		int price2);
-
+	void furniture_add(string type2, int h, int w, int l, string color2, string material2, int price2);
+	string furniture_info();
 };
 

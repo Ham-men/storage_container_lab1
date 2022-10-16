@@ -2,19 +2,31 @@
 
 car::car()
 {
-	brand = 'none';
-	model = 'none';
-	gos_nomber = 'none';
+	brand = "none";
+	model = "none";
+	gos_nomber = "none";
 }
 
-car::car(char brand2, char model2, char gos_nomber2)
+car::car(string brand2, string model2, string gos_nomber2)
 {
 	brand = brand2;
 	model = model2;
 	gos_nomber = gos_nomber2;
 }
 
-char car::get_brand()
+
+
+void car::car_add(string brand2, string model2, string gos_nomber2)
 {
-	return brand;
+	brand = brand2;
+	model = model2;
+	gos_nomber = gos_nomber2;
+}
+
+string car::car_info()
+{
+	if (brand == "none")
+		return "";
+	else
+		return "\ncar_info\n	brand = " + brand + "\n	model = " + model + "\n	gos_nomber = " + gos_nomber;
 }

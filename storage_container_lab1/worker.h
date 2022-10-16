@@ -1,20 +1,22 @@
 #pragma once
+#include "lib_all.h"
 class worker
 {
 private:
-	char fio;
-	char job;
+	string fio;
+	string job;
 	int zp;
-	char adress;
+	string adress;
 	int m_nomber;
 
 public:
 	worker();
-	worker(char fio2,
-		char job2,
+	worker(string fio2,
+		string job2,
 		int zp2,
-		char adress2,
+		string adress2,
 		int m_nomber2);
-
+	void worker_add(string fio2, string job2, int zp2, string adress2, int m_nomber2);
+	string worker_info();
 };
 
